@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FlowCRM — Sistem CRM Custom untuk Bisnis Indonesia</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  🗂️ CRM custom — bukan template, bukan SaaS mahal. <code>Dibangun khusus untuk bisnis kamu.</code>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">
+    <div class="logo-icon">⚙</div>
+    Flow<span>CRM</span>
+  </div>
+  <div class="nav-links">
+    <a href="#solution">Fitur</a>
+    <a href="#integrations">Integrasi</a>
+    <a href="#how">Cara Kerja</a>
+    <a href="#pricing">Harga</a>
+  </div>
+  <a href="https://wa.me/628XXXXXXXXXX?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20CRM%20Custom" class="nav-wa" target="_blank">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.552 4.112 1.516 5.842L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.002-1.366l-.358-.214-3.76.98.999-3.645-.234-.374A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.398 9.818 9.818 0 5.421-4.398 9.818-9.818 9.818z"/></svg>
+    Konsultasi Gratis
+  </a>
+</nav>
+
+<!-- HERO -->
+<div style="border-bottom:1px solid var(--border);overflow:hidden;">
+<div class="hero">
+  <div class="hero-left">
+    <div class="hero-badge">CRM · N8N · CUSTOM BUILD · AUTOMATION</div>
+    <h1>Tinggalkan <span class="mono">Excel</span>,<br>Pakai <span class="hl">CRM</span><br>yang kamu<br>kendalikan.</h1>
+    <p class="hero-desc">CRM custom dibangun sesuai alur bisnis kamu — bukan template kaku. Terhubung dengan Meta Ads, WhatsApp, dan semua tools yang sudah kamu pakai.</p>
+    <div class="hero-ctas">
+      <a href="https://wa.me/628XXXXXXXXXX?text=Halo%2C%20saya%20mau%20konsultasi%20soal%20CRM%20Custom" class="btn-wa-hero" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.552 4.112 1.516 5.842L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.002-1.366l-.358-.214-3.76.98.999-3.645-.234-.374A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.398 9.818 9.818 0 5.421-4.398 9.818-9.818 9.818z"/></svg>
+        Chat WhatsApp — Gratis Konsultasi
+      </a>
+      <div class="hero-micro">
+        <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+        Setup 3–7 hari · Garansi revisi · Milik kamu selamanya
+      </div>
+      <div class="hero-trust">
+        <div class="avs">
+          <div class="av" style="background:#dbeafe;color:#1e40af">BW</div>
+          <div class="av" style="background:#dcfce7;color:#166534">RA</div>
+          <div class="av" style="background:#fef3c7;color:#92400e">DP</div>
+          <div class="av" style="background:#ede9fe;color:#5b21b6">SF</div>
+        </div>
+        <div class="trust-txt">
+          <strong>Dipercaya 20+ bisnis</strong>
+          properti, agency, retail, jasa — sudah running
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CRM Dashboard Mockup -->
+  <div class="hero-right">
+    <div class="float-badge-1">
+      <div class="fb-icon">📈</div>
+      <div><div class="fb-val">Rp 284jt</div><div class="fb-lab">Pipeline bulan ini</div></div>
+    </div>
+    <div class="crm-mockup">
+      <div class="crm-topbar">
+        <div class="crm-dot cd-r"></div>
+        <div class="crm-dot cd-y"></div>
+        <div class="crm-dot cd-g"></div>
+        <div class="crm-title">flowcrm.app — Sales Pipeline</div>
+      </div>
+      <div class="crm-body">
+        <div class="crm-sidebar">
+          <div style="padding:12px 16px 8px;">
+            <div style="font-size:11px;font-weight:700;color:var(--ink);font-family:'Space Mono',monospace;">FLOWCRM</div>
+          </div>
+          <div style="height:1px;background:var(--border);margin:8px 0;"></div>
+          <div class="cs-section">MENU</div>
+          <div class="cs-item active"><span class="ic">📊</span> Pipeline <span class="cs-badge">24</span></div>
+          <div class="cs-item"><span class="ic">👥</span> Kontak</div>
+          <div class="cs-item"><span class="ic">📋</span> Task <span class="cs-badge amber">5</span></div>
+          <div class="cs-item"><span class="ic">📅</span> Follow-up</div>
+          <div class="cs-item"><span class="ic">📈</span> Laporan</div>
+          <div style="height:1px;background:var(--border);margin:8px 0;"></div>
+          <div class="cs-section">INTEGRASI</div>
+          <div class="cs-item"><span class="ic">📱</span> WhatsApp <span class="cs-badge green">✓</span></div>
+          <div class="cs-item"><span class="ic">📣</span> Meta Ads <span class="cs-badge green">✓</span></div>
+        </div>
+        <div class="crm-main">
+          <div class="cm-header">
+            <div class="cm-title">Sales Pipeline — November 2025</div>
+            <button class="cm-btn">+ Tambah Lead</button>
+          </div>
+          <div class="kanban">
+            <div class="kanban-col">
+              <div class="k-header"><div class="k-dot kd-new"></div>NEW LEAD</div>
+              <div class="k-card">
+                <div class="k-name">PT Maju Bersama</div>
+                <div class="k-company">Properti · Surabaya</div>
+                <div class="k-tags"><span class="k-tag kt-blue">Meta Ads</span><span class="k-tag kt-cyan">Baru</span></div>
+                <div class="k-val">Rp 45jt</div>
+              </div>
+              <div class="k-card">
+                <div class="k-name">Riko Santoso</div>
+                <div class="k-company">Retail · Jakarta</div>
+                <div class="k-tags"><span class="k-tag kt-blue">WA</span></div>
+                <div class="k-val">Rp 12jt</div>
+              </div>
+            </div>
+            <div class="kanban-col">
+              <div class="k-header"><div class="k-dot kd-follow"></div>FOLLOW-UP</div>
+              <div class="k-card">
+                <div class="k-name">CV Sukses Jaya</div>
+                <div class="k-company">Manufaktur · Jkt</div>
+                <div class="k-tags"><span class="k-tag kt-amber">Terjadwal</span></div>
+                <div class="k-val">Rp 78jt</div>
+              </div>
+            </div>
+            <div class="kanban-col">
+              <div class="k-header"><div class="k-dot kd-nego"></div>NEGOSIASI</div>
+              <div class="k-card">
+                <div class="k-name">Toko Berkah</div>
+                <div class="k-company">FMCG · Bandung</div>
+                <div class="k-tags"><span class="k-tag kt-cyan">Hot 🔥</span></div>
+                <div class="k-val">Rp 33jt</div>
+              </div>
+            </div>
+            <div class="kanban-col">
+              <div class="k-header"><div class="k-dot kd-close"></div>CLOSED ✓</div>
+              <div class="k-card">
+                <div class="k-name">PT Digital Maju</div>
+                <div class="k-company">Agency · Sby</div>
+                <div class="k-tags"><span class="k-tag kt-green">WON ✓</span></div>
+                <div class="k-val">Rp 116jt</div>
+              </div>
+            </div>
+          </div>
+          <div class="crm-stats">
+            <div class="crm-stat">
+              <div class="crm-stat-val">24</div>
+              <div class="crm-stat-lab">TOTAL LEADS</div>
+              <div class="crm-stat-chg chg-up">↑ +8 minggu ini</div>
+            </div>
+            <div class="crm-stat">
+              <div class="crm-stat-val">62%</div>
+              <div class="crm-stat-lab">CONV. RATE</div>
+              <div class="crm-stat-chg chg-up">↑ +5%</div>
+            </div>
+            <div class="crm-stat">
+              <div class="crm-stat-val">4.2j</div>
+              <div class="crm-stat-lab">AVG DEAL SIZE</div>
+              <div class="crm-stat-chg chg-warn">→ Stabil</div>
+            </div>
+            <div class="crm-stat">
+              <div class="crm-stat-val">3hr</div>
+              <div class="crm-stat-lab">AVG RESP TIME</div>
+              <div class="crm-stat-chg chg-up">↑ Lebih cepat</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="float-badge-2">
+      <div class="fb-icon">🤖</div>
+      <div><div class="fb-val">Auto follow-up</div><div class="fb-lab">via WhatsApp · aktif</div></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span class="mq-item hi">SALES PIPELINE</span><span class="mq-sep">·</span>
+    <span class="mq-item">MANAJEMEN LEADS</span><span class="mq-sep">·</span>
+    <span class="mq-item hi">AUTO FOLLOW-UP</span><span class="mq-sep">·</span>
+    <span class="mq-item">INTEGRASI META ADS</span><span class="mq-sep">·</span>
+    <span class="mq-item hi">WHATSAPP NOTIF</span><span class="mq-sep">·</span>
+    <span class="mq-item">LAPORAN OTOMATIS</span><span class="mq-sep">·</span>
+    <span class="mq-item hi">KANBAN BOARD</span><span class="mq-sep">·</span>
+    <span class="mq-item">CUSTOM PIPELINE</span><span class="mq-sep">·</span>
+    <span class="mq-item hi">SALES PIPELINE</span><span class="mq-sep">·</span>
+    <span class="mq-item">MANAJEMEN LEADS</span><span class="mq-sep">·</span>
+    <span class="mq-item hi">AUTO FOLLOW-UP</span><span class="mq-sep">·</span>
+    <span class="mq-item">INTEGRASI META ADS</span><span class="mq-sep">·</span>
+    <span class="mq-item hi">WHATSAPP NOTIF</span><span class="mq-sep">·</span>
+    <span class="mq-item">LAPORAN OTOMATIS</span><span class="mq-sep">·</span>
+    <span class="mq-item hi">KANBAN BOARD</span><span class="mq-sep">·</span>
+    <span class="mq-item">CUSTOM PIPELINE</span><span class="mq-sep">·</span>
+  </div>
+</div>
+
+<!-- PROBLEM -->
+<section class="section" id="masalah">
+  <div class="sec-tag">MASALAH</div>
+  <h2 class="sec-h2">Data leads kamu<br>berserakan di mana-mana</h2>
+  <p class="sec-sub">Tanpa CRM yang tepat, peluang bisnis hilang setiap hari tanpa kamu sadari.</p>
+  <div class="prob-grid reveal">
+    <div class="prob-card">
+      <div class="prob-icon">🗂️</div>
+      <div class="prob-title">Leads di WhatsApp, Excel, DM Instagram — tidak terorganisir</div>
+      <p class="prob-desc">Tim sales menghabiskan lebih banyak waktu untuk mencari data daripada menjual. Tidak ada visibility siapa yang sudah di-follow-up dan siapa yang belum.</p>
+    </div>
+    <div class="prob-card">
+      <div class="prob-icon">😰</div>
+      <div class="prob-title">Follow-up terlambat — leads keburu dingin</div>
+      <p class="prob-desc">Riset menunjukkan 78% leads beli dari vendor yang pertama merespons. Kalau follow-up telat 24 jam, peluang turun drastis.</p>
+    </div>
+    <div class="prob-card">
+      <div class="prob-icon">📉</div>
+      <div class="prob-title">Tidak tahu mana leads panas, mana yang perlu di-nurture</div>
+      <p class="prob-desc">Tanpa pipeline yang jelas, semua leads diperlakukan sama. Padahal ada yang siap beli sekarang dan ada yang butuh waktu lebih lama.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUTION -->
+<div class="sol-section" id="solution">
+  <div class="sol-inner">
+    <div>
+      <div class="sec-tag" style="color:rgba(26,86,255,0.8)">SOLUSI</div>
+      <h2 class="sec-h2" style="color:white">Pipeline yang <span class="hl">bekerja</span><br>untuk kamu</h2>
+      <p class="sec-sub" style="color:rgba(255,255,255,0.4);margin-bottom:0">Visualisasikan setiap leads dari masuk sampai closing.</p>
+
+      <div class="pipeline reveal" style="margin-top:36px;">
+        <div class="pipeline-title">// ALUR SALES PIPELINE</div>
+        <div class="pipe-stages">
+          <div class="pipe-stage">
+            <div class="pipe-connector"><div class="pipe-dot"></div></div>
+            <div class="pipe-content">
+              <div style="display:flex;align-items:center;gap:8px;">
+                <div class="pipe-stage-name">🎯 New Lead Masuk</div>
+                <div class="pipe-count">24</div>
+              </div>
+              <div class="pipe-stage-desc">Dari Meta Ads, WA, form, atau input manual — semua masuk otomatis</div>
+            </div>
+          </div>
+          <div class="pipe-stage">
+            <div class="pipe-connector"><div class="pipe-dot"></div></div>
+            <div class="pipe-content">
+              <div style="display:flex;align-items:center;gap:8px;">
+                <div class="pipe-stage-name">📞 Follow-up Otomatis</div>
+                <div class="pipe-count">11</div>
+              </div>
+              <div class="pipe-stage-desc">WA reminder dikirim otomatis ke sales team, tidak ada yang terlewat</div>
+            </div>
+          </div>
+          <div class="pipe-stage">
+            <div class="pipe-connector"><div class="pipe-dot"></div></div>
+            <div class="pipe-content">
+              <div style="display:flex;align-items:center;gap:8px;">
+                <div class="pipe-stage-name">🤝 Negosiasi & Proposal</div>
+                <div class="pipe-count">6</div>
+              </div>
+              <div class="pipe-stage-desc">Semua catatan, dokumen, dan history komunikasi tersimpan rapi</div>
+            </div>
+          </div>
+          <div class="pipe-stage">
+            <div class="pipe-connector"><div class="pipe-dot"></div></div>
+            <div class="pipe-content">
+              <div style="display:flex;align-items:center;gap:8px;">
+                <div class="pipe-stage-name">🎉 Closed Won</div>
+                <div class="pipe-count" style="color:var(--green);">3</div>
+              </div>
+              <div class="pipe-stage-desc">Laporan revenue otomatis tersimpan, klien masuk database untuk upsell</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sol-features reveal">
+      <div class="sec-tag" style="color:rgba(26,86,255,0.8)">FITUR UTAMA</div>
+      <h2 class="sec-h2" style="color:white;font-size:clamp(28px,3.5vw,44px)">Lebih dari sekadar<br>spreadsheet</h2>
+      <div class="sol-f-list">
+        <div class="sol-f-item">
+          <div class="sol-f-ic">⚡</div>
+          <div>
+            <div class="sol-f-title">Auto-capture Leads dari Meta Ads</div>
+            <p class="sol-f-desc">Setiap lead dari Facebook/Instagram Ads langsung masuk ke CRM tanpa input manual. Tidak ada lagi leads yang hilang.</p>
+          </div>
+        </div>
+        <div class="sol-f-item">
+          <div class="sol-f-ic">🔔</div>
+          <div>
+            <div class="sol-f-title">Notifikasi & Reminder WhatsApp</div>
+            <p class="sol-f-desc">Sales team dapat notif WA otomatis saat ada lead baru atau jadwal follow-up. Tidak perlu cek CRM terus-menerus.</p>
+          </div>
+        </div>
+        <div class="sol-f-item">
+          <div class="sol-f-ic">📊</div>
+          <div>
+            <div class="sol-f-title">Dashboard & Laporan Real-time</div>
+            <p class="sol-f-desc">Pantau conversion rate, pipeline value, dan performa tim sales dari satu dashboard. Laporan otomatis dikirim tiap minggu.</p>
+          </div>
+        </div>
+        <div class="sol-f-item">
+          <div class="sol-f-ic">🎨</div>
+          <div>
+            <div class="sol-f-title">100% Custom Sesuai Alur Bisnis</div>
+            <p class="sol-f-desc">Pipeline stages, field data, dan workflow dibuat sesuai proses sales bisnis kamu — bukan template generik yang dipaksakan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- INTEGRATIONS -->
+<section class="integ-section" id="integrations">
+  <div class="sec-tag">INTEGRASI</div>
+  <h2 class="sec-h2">Terhubung dengan tools<br>yang sudah kamu pakai</h2>
+  <p class="sec-sub" style="margin-bottom:0">Tidak perlu ganti workflow yang sudah berjalan. CRM ini nyambung ke semua.</p>
+  <div class="integ-grid reveal">
+    <div class="integ-card">
+      <div class="integ-icon">📣</div>
+      <div class="integ-name">Meta Ads</div>
+      <div class="integ-desc">Lead form otomatis masuk ke pipeline tanpa input manual</div>
+      <div class="integ-badge ib-blue">AUTO-SYNC</div>
+    </div>
+    <div class="integ-card">
+      <div class="integ-icon">💬</div>
+      <div class="integ-name">WhatsApp</div>
+      <div class="integ-desc">Notifikasi leads baru & reminder follow-up langsung ke WA</div>
+      <div class="integ-badge ib-green">NOTIF REAL-TIME</div>
+    </div>
+    <div class="integ-card">
+      <div class="integ-icon">📊</div>
+      <div class="integ-name">Google Sheets</div>
+      <div class="integ-desc">Backup & laporan otomatis tersync ke spreadsheet tim</div>
+      <div class="integ-badge ib-cyan">AUTO-REPORT</div>
+    </div>
+    <div class="integ-card">
+      <div class="integ-icon">📧</div>
+      <div class="integ-name">Email / Gmail</div>
+      <div class="integ-desc">Kirim proposal & follow-up email otomatis dari pipeline</div>
+      <div class="integ-badge ib-blue">AUTO-SEND</div>
+    </div>
+    <div class="integ-card">
+      <div class="integ-icon">🗓️</div>
+      <div class="integ-name">Google Calendar</div>
+      <div class="integ-desc">Jadwal meeting & follow-up tersync otomatis ke kalender</div>
+      <div class="integ-badge ib-green">SYNC</div>
+    </div>
+    <div class="integ-card">
+      <div class="integ-icon">🤖</div>
+      <div class="integ-name">AI CS WhatsApp</div>
+      <div class="integ-desc">Leads dari CS AI otomatis masuk ke pipeline CRM</div>
+      <div class="integ-badge ib-cyan">CONNECTED</div>
+    </div>
+    <div class="integ-card">
+      <div class="integ-icon">📋</div>
+      <div class="integ-name">Notion / Airtable</div>
+      <div class="integ-desc">Data bisa disync ke Notion atau Airtable sesuai preferensi</div>
+      <div class="integ-badge ib-blue">OPTIONAL</div>
+    </div>
+    <div class="integ-card">
+      <div class="integ-icon">⚙️</div>
+      <div class="integ-name">Custom Integration</div>
+      <div class="integ-desc">Butuh integrasi lain? Diskusikan dan kami bangun</div>
+      <div class="integ-badge ib-green">REQUEST</div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<div class="how-section" id="how">
+  <div class="how-inner">
+    <div class="sec-tag">CARA KERJA</div>
+    <h2 class="sec-h2">Setup cepat, <span class="hl">langsung running</span></h2>
+    <p class="sec-sub" style="margin-bottom:0">Dari konsultasi sampai CRM live, biasanya 3–7 hari kerja.</p>
+    <div class="how-grid reveal">
+      <div class="how-card">
+        <div class="how-num">01</div>
+        <h3>Analisis Proses Bisnis</h3>
+        <p>Kita diskusi alur sales kamu — dari mana leads datang, siapa yang handle, seperti apa tahapan sampai closing.</p>
+        <div class="how-time">⏱ Hari 1</div>
+      </div>
+      <div class="how-card">
+        <div class="how-num">02</div>
+        <h3>Desain Pipeline & Build</h3>
+        <p>CRM dibangun sesuai alur yang sudah didiskusikan — stages, fields, dan automasi dirancang khusus untuk bisnis kamu.</p>
+        <div class="how-time">⏱ Hari 2–4</div>
+      </div>
+      <div class="how-card">
+        <div class="how-num">03</div>
+        <h3>Integrasi & Koneksi</h3>
+        <p>Sambungkan ke Meta Ads, WhatsApp, Google Sheets, dan tools lain yang kamu pakai. Semua data mulai mengalir otomatis.</p>
+        <div class="how-time">⏱ Hari 5–6</div>
+      </div>
+      <div class="how-card">
+        <div class="how-num">04</div>
+        <h3>Training & Go Live</h3>
+        <p>Tim kamu ditraining cara pakai CRM. Dokumen panduan disiapkan. Sistem live dan siap digunakan penuh.</p>
+        <div class="how-time">⏱ Hari 7</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TESTIMONIALS -->
+<section class="testi-section" id="testi">
+  <div class="sec-tag">TESTIMONI</div>
+  <h2 class="sec-h2">Bisnis yang sudah<br><span class="hl">beralih ke CRM</span></h2>
+  <div class="testi-grid reveal">
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"Sebelumnya leads dari Meta Ads sering terlewat karena masuk ke inbox yang berbeda. Sekarang <strong>semua otomatis masuk pipeline</strong> dan tim sales dapat notif WA langsung. Tidak ada lagi leads yang hilang."</p>
+      <div class="t-author">
+        <div class="t-av" style="background:#dbeafe;color:#1e40af">BP</div>
+        <div>
+          <div class="t-name">Budi P.</div>
+          <div class="t-role">Owner Agency Properti · Jakarta</div>
+          <div class="t-verified"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>Klien terverifikasi</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"CRM-nya bisa dicustom sesuai alur bisnis kami yang lumayan kompleks. <strong>Conversion rate naik dari 38% ke 61%</strong> dalam 2 bulan pertama karena follow-up jadi jauh lebih terstruktur."</p>
+      <div class="t-author">
+        <div class="t-av" style="background:#dcfce7;color:#166534">RA</div>
+        <div>
+          <div class="t-name">Rina A.</div>
+          <div class="t-role">Sales Manager · Distributor FMCG</div>
+          <div class="t-verified"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>Klien terverifikasi</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"Yang paling saya suka adalah <strong>semua tools kami nyambung</strong> — Meta Ads, WA, dan Google Sheets. Tidak perlu buka banyak tab lagi, semua data ada di satu tempat."</p>
+      <div class="t-author">
+        <div class="t-av" style="background:#fef3c7;color:#92400e">DP</div>
+        <div>
+          <div class="t-name">Dodi P.</div>
+          <div class="t-role">Founder Digital Agency · Surabaya</div>
+          <div class="t-verified"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>Klien terverifikasi</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<div class="pricing-section" id="pricing">
+  <div class="pricing-inner">
+    <div class="sec-tag">HARGA</div>
+    <h2 class="sec-h2">Investasi yang<br><span class="hl">balik dalam 30 hari</span></h2>
+    <p class="sec-sub" style="margin-bottom:0">Bandingkan dengan biaya langganan HubSpot $45–1.600/bulan selamanya.</p>
+    <div class="pricing-grid reveal">
+      <div class="price-card">
+        <div class="price-tier">STARTER</div>
+        <div class="price-num"><span class="price-sup">Rp</span>1,5<span style="font-size:22px">jt</span></div>
+        <div class="price-note">Setup sekali · Milik kamu selamanya</div>
+        <div class="price-sep"></div>
+        <div class="feat-list">
+          <div class="fi on"><span class="fi-ic">✅</span> Pipeline custom (max 4 stages)</div>
+          <div class="fi on"><span class="fi-ic">✅</span> Manajemen kontak & leads</div>
+          <div class="fi on"><span class="fi-ic">✅</span> Notifikasi WhatsApp</div>
+          <div class="fi on"><span class="fi-ic">✅</span> Laporan Google Sheets</div>
+          <div class="fi off"><span class="fi-ic">—</span> Integrasi Meta Ads</div>
+          <div class="fi off"><span class="fi-ic">—</span> Multi-user tim sales</div>
+          <div class="fi off"><span class="fi-ic">—</span> Auto follow-up sequence</div>
+        </div>
+        <a href="https://wa.me/628XXXXXXXXXX?text=Halo%2C%20saya%20mau%20tanya%20paket%20Starter%20CRM%20Custom" class="btn-price bp-outline" target="_blank">Tanya via WhatsApp</a>
+      </div>
+      <div class="price-card featured">
+        <div class="pop-tag">PALING LARIS</div>
+        <div class="price-tier">PROFESSIONAL</div>
+        <div class="price-num"><span class="price-sup">Rp</span>3<span style="font-size:22px">jt</span></div>
+        <div class="price-note">Setup sekali · Milik kamu selamanya</div>
+        <div class="price-sep"></div>
+        <div class="feat-list">
+          <div class="fi on"><span class="fi-ic">✅</span> Pipeline custom (unlimited stages)</div>
+          <div class="fi on"><span class="fi-ic">✅</span> Manajemen kontak & leads</div>
+          <div class="fi on"><span class="fi-ic">✅</span> Notifikasi WhatsApp real-time</div>
+          <div class="fi on"><span class="fi-ic">✅</span> Laporan & dashboard otomatis</div>
+          <div class="fi on"><span class="fi-ic">✅</span> Integrasi Meta Ads leads</div>
+          <div class="fi on"><span class="fi-ic">✅</span> Multi-user tim sales</div>
+          <div class="fi off" style="color:rgba(255,255,255,0.2)"><span class="fi-ic">—</span> Auto follow-up sequence</div>
+        </div>
+        <a href="https://wa.me/628XXXXXXXXXX?text=Halo%2C%20saya%20mau%20order%20paket%20Professional%20CRM%20Custom" class="btn-price bp-wa" target="_blank">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.552 4.112 1.516 5.842L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.002-1.366l-.358-.214-3.76.98.999-3.645-.234-.374A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.398 9.818 9.818 0 5.421-4.398 9.818-9.818 9.818z"/></svg>
+          Order via WhatsApp
+        </a>
+      </div>
+      <div class="price-card">
+        <div class="price-tier">ENTERPRISE</div>
+        <div class="price-num"><span class="price-sup">Rp</span>6<span style="font-size:22px">jt+</span></div>
+        <div class="price-note">Full custom · Untuk bisnis skala menengah</div>
+        <div class="price-sep"></div>
+        <div class="feat-list">
+          <div class="fi on"><span class="fi-ic">✅</span> Pipeline custom unlimited</div>
+          <div class="fi on"><span class="fi-ic">✅</span> Manajemen kontak & leads</div>
+          <div class="fi on"><span class="fi-ic">✅</span> Notifikasi & auto-reply WA</div>
+          <div class="fi on"><span class="fi-ic">✅</span> Dashboard & laporan advanced</div>
+          <div class="fi on"><span class="fi-ic">✅</span> Integrasi penuh Meta Ads</div>
+          <div class="fi on"><span class="fi-ic">✅</span> Multi-user + role management</div>
+          <div class="fi on"><span class="fi-ic">✅</span> Auto follow-up sequence</div>
+        </div>
+        <a href="https://wa.me/628XXXXXXXXXX?text=Halo%2C%20saya%20tertarik%20paket%20Enterprise%20CRM%20Custom%2C%20mau%20diskusi%20kebutuhan" class="btn-price bp-outline" target="_blank">Diskusi via WhatsApp</a>
+      </div>
+    </div>
+  </div>
+  <div class="guarantee reveal">
+    <div class="g-icon">🛡️</div>
+    <div>
+      <div class="g-title">Garansi Revisi 30 Hari</div>
+      <p class="g-desc">Kalau CRM tidak berjalan sesuai yang dijanjikan atau ada fitur yang belum optimal dalam 30 hari pertama, saya revisi dan perbaiki gratis sampai benar-benar sesuai kebutuhanmu.</p>
+    </div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<section class="faq-section" id="faq">
+  <div class="sec-tag">FAQ</div>
+  <h2 class="sec-h2">Pertanyaan yang <span class="hl">sering muncul</span></h2>
+  <div class="faq-wrap reveal">
+    <div class="faq-item">
+      <div class="faq-q">CRM ini dibuat pakai platform apa? Kalau saya mau edit sendiri nanti bisa? <span class="faq-arrow">+</span></div>
+      <div class="faq-a">CRM dibangun menggunakan kombinasi tools terbaik yang paling cocok dengan kebutuhan bisnis kamu — bisa berbasis Airtable, Notion, atau custom web app tergantung kompleksitas. Semua akses penuh diberikan ke kamu, dan saya ajarkan cara manage dan update datanya sendiri tanpa bantuan saya.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Apakah ada biaya bulanan setelah setup? <span class="faq-arrow">+</span></div>
+      <div class="faq-a">Tidak ada biaya ke saya. Tapi tergantung platform yang dipilih, mungkin ada biaya tools pihak ketiga yang sangat terjangkau — misalnya Airtable free tier sudah cukup untuk kebanyakan bisnis, atau jika menggunakan tier berbayar biasanya di bawah $20/bulan. Ini akan dibahas transparan saat konsultasi.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Berapa banyak user yang bisa pakai CRM ini? <span class="faq-arrow">+</span></div>
+      <div class="faq-a">Paket Starter cocok untuk 1-2 user. Paket Professional support multi-user untuk tim sales kamu. Paket Enterprise bisa disesuaikan untuk tim yang lebih besar dengan role dan permission yang berbeda-beda.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Bagaimana cara leads dari Meta Ads masuk ke CRM otomatis? <span class="faq-arrow">+</span></div>
+      <div class="faq-a">Menggunakan n8n workflow yang terhubung ke Meta Leads API. Setiap ada lead baru dari form iklan Facebook/Instagram, data langsung terkirim ke CRM dalam hitungan detik — nama, nomor HP, email, dan asal iklan semua tersimpan otomatis.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Apakah data saya aman? Disimpan di mana? <span class="faq-arrow">+</span></div>
+      <div class="faq-a">Data tersimpan di platform pilihan yang kamu kontrol penuh — bukan di server saya. Semua akses ada di tangan kamu. Kalau menggunakan Airtable atau Notion, data ada di akun mereka yang sudah enterprise-grade security.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Bisa diintegrasikan dengan sistem yang sudah ada di perusahaan kami? <span class="faq-arrow">+</span></div>
+      <div class="faq-a">Sangat bisa. n8n mendukung ratusan integrasi. Kalau kamu sudah pakai sistem tertentu (ERP, toko online, form, dll), diskusikan di konsultasi awal dan saya berikan assessment apakah bisa diintegrasikan dan berapa effort-nya.</div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<div class="final-cta">
+  <div class="final-inner">
+    <h2>Leads kamu layak<br>dikelola dengan <span class="hl">serius.</span></h2>
+    <p>Setup 3–7 hari. Garansi revisi 30 hari. Konsultasi pertama gratis.</p>
+    <a href="https://wa.me/628XXXXXXXXXX?text=Halo%2C%20saya%20tertarik%20dengan%20CRM%20Custom.%20Boleh%20konsultasi%20gratis%3F" class="final-btn-wa" target="_blank">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.552 4.112 1.516 5.842L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.002-1.366l-.358-.214-3.76.98.999-3.645-.234-.374A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.398 9.818 9.818 0 5.421-4.398 9.818-9.818 9.818z"/></svg>
+      Chat WhatsApp Sekarang — Gratis
+    </a>
+    <div class="reassure-row">
+      <div class="rr"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>Garansi revisi 30 hari</div>
+      <div class="rr"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/></svg>Setup 3–7 hari</div>
+      <div class="rr"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z"/></svg>Konsultasi gratis</div>
+      <div class="rr"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/></svg>20+ bisnis aktif</div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="logo-text">Flow<span>CRM</span></div>
+  <p>© 2025 FlowCRM · Powered by n8n & Custom Build · Made in Indonesia 🇮🇩</p>
+</footer>
+
+<!-- FLOAT WA -->
+<a href="https://wa.me/628XXXXXXXXXX?text=Halo%2C%20saya%20tertarik%20dengan%20CRM%20Custom" class="float-wa" target="_blank">
+  <div class="float-pulse"></div>
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.552 4.112 1.516 5.842L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.002-1.366l-.358-.214-3.76.98.999-3.645-.234-.374A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.398 9.818 9.818 0 5.421-4.398 9.818-9.818 9.818z"/></svg>
+  <span>Hubungi Kami</span>
+</a>
+
+<script>
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.07 });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+document.querySelectorAll('.faq-q').forEach(q => {
+  q.addEventListener('click', () => {
+    const item = q.parentElement;
+    const open = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!open) item.classList.add('open');
+  });
+});
+</script>
+</body>
+</html>
